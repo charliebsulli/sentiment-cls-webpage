@@ -1,5 +1,5 @@
 import pickle
-from flask import Flask, jsonify, jsonify, request
+from flask import Flask, jsonify, request, render_template
 
 app = Flask(__name__)
 
@@ -8,7 +8,7 @@ vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 @app.route("/")
 def home():
-    return "<p>server is running</p>"
+    return render_template("index.html")
 
 @app.route("/classify", methods=["POST"])
 def classify():
