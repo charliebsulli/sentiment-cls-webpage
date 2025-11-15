@@ -1,0 +1,15 @@
+blinker==1.9.0
+click==8.3.0
+Flask==3.1.2
+gunicorn==23.0.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1756321760188/work
+MarkupSafe==3.0.3
+numpy @ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_numpy_1761161593/work/dist/numpy-2.3.4-cp314-cp314-macosx_11_0_arm64.whl#sha256=727c21b648acc5016558cadeb513d92b13c65eb8f21b6b8ccdc619acacf2d587
+packaging==25.0
+scikit-learn @ file:///Users/runner/miniforge3/conda-bld/scikit-learn_1757406436257/work/dist/scikit_learn-1.7.2-cp314-cp314-macosx_11_0_arm64.whl#sha256=ceb4ca1731626abdd5eb46c2ae1b8394b50b8703fd654fa95e8cbbfb7db4976c
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy-split_1761689929112/work/dist/scipy-1.16.3-cp314-cp314-macosx_11_0_arm64.whl#sha256=cbac874232c9e63c9457fe9c1dc756158cff18346a77b18f167995ba278d9909
+setuptools==80.9.0
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1741878222898/work
+Werkzeug==3.1.3
